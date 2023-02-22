@@ -1,0 +1,14 @@
+name: ai_bot
+channels:
+  - defaults
+  - conda-forge
+  - pip
+dependencies:
+  - python=3.9*
+  - jupyter
+  - pandas
+  - scikit-learn
+  - numpy
+  - matplotlib
+  - openai
+  - Flask
