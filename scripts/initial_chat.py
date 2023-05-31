@@ -2,7 +2,7 @@
 import openai
 # import readline
 
-openai.api_key = "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"
+
 #%%
 def generate_response(prompt):
     response = openai.Completion.create(
