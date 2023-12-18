@@ -2,7 +2,7 @@ import openai
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
-openai.api_key = "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"
+openai.api_key = #your api key here
 
 @app.route("/")
 def index():
